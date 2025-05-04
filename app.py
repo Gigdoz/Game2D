@@ -92,8 +92,6 @@ while True:
             pygame.quit()
             sys.exit()
 
-    print(player.x, player.y)
-
     # Управление
     keys = pygame.key.get_pressed()
     player_vel[0] = 0
